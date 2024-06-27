@@ -6,4 +6,4 @@
 - [Termux](https://github.com/termux/termux-app/releases/)
 - [Magisk](https://github.com/topjohnwu/Magisk/releases)
 # ADB or su command
-- pm uninstall -k --user 0 com.sec.enterprise.knox.cloudmdm.smdms
+- `pm disable-user --user 0 com.sec.enterprise.knox.cloudmdm.smdms`
